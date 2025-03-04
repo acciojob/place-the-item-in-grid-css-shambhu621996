@@ -7,10 +7,17 @@
 	<style>
 		.holder{
 			display:grid;
-			background-color:blue;
+			/* background-color:blue;
 			grid-template-columns:100px 100px;
-			grid-template-rows:100px 100px;
-			
+			grid-template-rows:100px 100px; */
+			width: 200px;  /* Total width */
+    height: 200px; /* Total height */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: repeat(2, 1fr); 
+		background-color:blue;	
+		}
+		/* .item{
+			background-color:red; */
 		}
 	</style>
 </head>
